@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Code Analysis') {
             steps {
-                echo 'Analyze code to ensure it meets industry standards.'
+                echo 'Analyse code to ensure it meets industry standards.'
                 echo 'Tool: SonarQube'
             }
         }
@@ -41,6 +41,11 @@ pipeline {
             steps {
                 echo 'Deploy the application to a production server.'
                 echo 'Tool: AWS CLI'
+            }
+        }
+        stage('Complete') {
+            steps {
+                echo 'Deployment completed.'
             }
         }
     }
