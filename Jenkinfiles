@@ -43,6 +43,5 @@ pipeline {
                 echo 'Tool: AWS CLI'
             }
         }
-        
     }
 }
