@@ -43,10 +43,6 @@ pipeline {
                 echo 'Tool: AWS CLI'
             }
         }
-        stage('Complete') {
-            steps {
-                echo 'Deployment completed.'
-            }
-        }
+        
     }
 }
